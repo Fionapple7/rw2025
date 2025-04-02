@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Moving！</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* スカイブルーの背景色 */
+            color: #333; /* 文字色を濃いグレーにして読みやすく */
+            font-family: Arial, sans-serif; /* フォントスタイルを設定 */
+            text-align: center; /* 中央揃えにする */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ffffff;
+            color: #333;
+            border: 2px solid #333;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Keep Moving！</h1>
+    <p id="random-sentence"></p>
+    <button onclick="showRandomSentence()">もう一度表示</button>
+
+    <script src="random-sentence.js"></script>
+</body>
+</html>
